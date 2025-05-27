@@ -8,7 +8,7 @@
 #  - Включить Swagger UI.
 
 server:
-  port: 8080
+  port: 8182
 
 spring:
   datasource:

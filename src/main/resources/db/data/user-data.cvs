@@ -1,0 +1,4 @@
+full_name,username,email,password,role
+Голубков Никита Юрьевич,nikita228,nikita@mail.ru,$2a$10$OwLU0I8OAwzBKV/NP2HVNOyhLE7Jz4g7JFWBJ9LCABhWxpMnL.5Fu,USER
+Черняков Артём Сергеевич,chernjk,pupok1015@mail.ru,$2a$10$noRtSoXKGL/LbaBAhAc4oOogZ/ww.R7GkB3cTjtNyF8aY/Hjb0pRS,ADMIN
+Бабраль Влад Михайлович,babral,bebra@mail.ru,$2a$10$x3KgWtUnehRWj7Br6Hr3dOgrhbo2hUL.OTH.aj591H4T6aWif9zHK,USER

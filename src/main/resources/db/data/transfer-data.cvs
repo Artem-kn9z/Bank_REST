@@ -1,0 +1,3 @@
+from_card_id,to_card,amount,status
+1,2,150.00,SUCCESS
+2,1,75.50,FAILED

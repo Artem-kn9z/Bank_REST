@@ -61,11 +61,11 @@ public class UserService {
 
         userOptional.orElseThrow(() -> new EntityNotFoundException("User not found"));
 
-        user.setFullName(userOptional.get().getFullName());
-        user.setUsername(userOptional.get().getUsername());
-        user.setEmail(userOptional.get().getEmail());
-        user.setRole(userOptional.get().getRole());
-        user.setPassword(passwordEncoder.encode(user.getPassword()));
-        userRepository.save(user);
+        userOptional.get().setFullName(user.getFullName());
+        userOptional.get().setUsername(user.getUsername());
+        userOptional.get().setEmail(user.getEmail());
+        userOptional.get().setRole(user.getRole());
+        userOptional.get().setPassword(passwordEncoder.encode(user.getPassword()));
+        userRepository.save(userOptional.get());
     }
 }
