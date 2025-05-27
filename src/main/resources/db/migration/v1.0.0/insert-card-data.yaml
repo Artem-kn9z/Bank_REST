@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 5
+      author: Artem Chernjakov
+      comment: "Insert card data"
+      changes:
+        - loadData:
+            file: db/data/card-data.cvs
+            tableName: card
+            separator: ","
+            encoding: UTF-8

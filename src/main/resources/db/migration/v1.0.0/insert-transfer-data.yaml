@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 6
+      author: Artem Chernjakov
+      comment: "Insert transfer data"
+      changes:
+        - loadData:
+            file: db/data/transfer-data.cvs
+            tableName: transfer
+            separator: ","
+            encoding: UTF-8

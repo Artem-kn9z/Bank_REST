@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 4
+      author: Artem Chernjakov
+      comment: "Insert user data"
+      changes:
+        - loadData:
+            file: db/data/user-data.cvs
+            tableName: users
+            separator: ","
+            encoding: UTF-8
