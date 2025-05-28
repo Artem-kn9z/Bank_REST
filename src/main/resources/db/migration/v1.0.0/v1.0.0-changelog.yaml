@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: db/migration/v1.0.0/create-user-schema.yaml
+  - include:
+      file: db/migration/v1.0.0/create-card-schema.yaml
+  - include:
+      file: db/migration/v1.0.0/create-transfer-schema.yaml
+  - include:
+      file: db/migration/v1.0.0/insert-user-data.yaml
+  - include:
+      file: db/migration/v1.0.0/insert-card-data.yaml
+  - include:
+      file: db/migration/v1.0.0/insert-transfer-data.yaml

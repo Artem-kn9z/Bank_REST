@@ -1,0 +1,4 @@
+encrypted_card_number,masked_card_number,owner_id,expiry_date,status,balance
+zudw6OXsCEbAStPCb5xskq+CVcsD7RLqyORkSk4id60=,**** **** **** 1234,1,12/26,ACTIVE,1000.00
+9dzFM67sKxUWE19dBp3mjQpK+wRg/269uDHMgG5oZLc=,**** **** **** 5678,2,11/27,ACTIVE,2000.00
+3PdNNowHo7XT9xz1d63IWIlQgNeRbL7re7j84JElxyI=,**** **** **** 1111,3,11/28,ACTIVE,3000.00
